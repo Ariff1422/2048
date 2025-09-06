@@ -12,31 +12,31 @@ async def get_trivia_answers():
     
     # All 25 trivia answers based on the question analysis
     answers = [
-        2,  # Q1: Challenges ending with exclamation mark: 3
-        1,  # Q2: Ticketing Agent handles: Concert tickets
-        3,  # Q3: Blankety Blanks dataset: 1000 lists x 100 elements
-        2,  # Q4: Princess Mia's cat: Fat Louie
-        4,  # Q5: MST average nodes: 10
-        4,  # Q6: No James Bond theme: Amy Winehouse
-        2,  # Q7: Smallest font size: 0.5px
-        1,  # Q8: Anagram: "graceful the pet"
-        2,  # Q9: UBS GCC locations: Australia, Hong Kong, Japan, Singapore
-        3,  # Q10: Trading precision: 4 decimal places
-        3,  # Q11: UBS Three Pillars: Capital strength, Simplification, Risk mgmt
-        3,  # Q12: Flag prefix: UBS
-        1,  # Q13: False statement: Landing on Smoke gives backwards throw
-        1,  # Q14: Ancient civilization: Human (Twintacle)
-        2,  # Q15: Ethical hacker goal: Identify and fix vulnerabilities
-        1,  # Q16: Fog-of-Wall action types: 3
-        1,  # Q17: Competition prize: All below
-        3,  # Q18: Language NOT in question: Chinese
-        2,  # Q19: Max sailing club bookings: 1000
-        1,  # Q20: Klein Moretti's tarot: The Fool
-        3,  # Q21: Largest 2048 grid: 10
-        3,  # Q22: Trading bot trades: 49
-        4,  # Q23: Micro-mouse legal moves: 136
-        3,  # Q24: UBS no branch in: Uruguay
-        2   # Q25: UBS Q2 2025 income: 5,357 million USD
+        4,  // Q1: Only one challenge title ends with an exclamation mark
+    1,  // Q2: Ticketing Agent handles Concert tickets
+    3,  // Q3: 1000 lists × 100 elements
+    2,  // Q4: Princess Mia’s cat is Fat Louie
+    4,  // Q5: MST average number of nodes is 10
+    4,  // Q6: Amy Winehouse did not have a James Bond theme song
+    4,  // Q7: Smallest font size is 1.5px
+    5,  // Q8: “patch after glue” is the anagram of “Capture The Flag”
+    2,  // Q9: The challenge has been held in Australia, Hong Kong, Japan, Singapore
+    3,  // Q10: Ensure precision to 4 decimal places
+    3,  // Q11: UBS Three Pillars: Capital strength, Simplification and efficiency, Risk management
+    3,  // Q12: Flags are prefixed with “UBS”
+    4,  // Q13: Output is not the number of players and dice rolls (false statement)
+    1,  // Q14: The ancient civilization preceding Octupusini is Human
+    2,  // Q15: Ethical hackers aim to identify and fix security vulnerabilities
+    1,  // Q16: There are 3 possible action types
+    1,  // Q17: Prize: All of the listed benefits
+    3,  // Q18: Chinese is not in the Duolingo Sorting question
+    2,  // Q19: Maximum sailing club bookings: 1000
+    1,  // Q20: Klein Moretti is represented by “The Fool”
+    3,  // Q21: Largest 2048 grid is 10×10
+    3,  // Q22: Trading bot executes 49 trades
+    4,  // Q23: Micro‑mouse has 136 legal move combinations
+    3,  // Q24: UBS does not have a branch office in Uruguay
+    1   // Q25: UBS’s total comprehensive income for Q2 2025 was 5,335 million USD
     ]
     
     return {"answers": answers}
